@@ -8,5 +8,5 @@ for pid in $PID; do kill $pid;done
 #cp content/data/*db tmp/
 #cp content/data/*openssl src/
 npm install
-#  NODE_ENV=development forever start $PWD/app.js
-nodemon $PWD/app.js 2>&1 > ./logs/2bees.log &
+NODE_ENV=development forever start $PWD/app.js
+#nodemon $PWD/app.js 2>&1 > ./logs/2bees.log &
