@@ -2,6 +2,8 @@
  * Module dependencies.
  */
 var newrelic = require('newrelic');
+var googleanalytics = require('./googleanalytics');
+
 var express = require('express');
 var cookieParser = require('cookie-parser');
 var compress = require('compression');
