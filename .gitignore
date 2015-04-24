@@ -7,6 +7,9 @@ lib-cov
 *.pid
 *.gz
 *.swp
+*.iml
+.DS_Store
+.idea
 .env
 
 pids
@@ -14,9 +17,6 @@ logs
 results
 tmp
 
-npm-debug.log
 node_modules
-.idea
-*.iml
-.DS_Store
 Thumbs.db
+newrelic.js
