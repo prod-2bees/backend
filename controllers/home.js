@@ -14,3 +14,8 @@ exports.tbees = function(req, res) {
               });
 };
 
+exports.email = function(req, res) {
+    res.render('email', {
+          title: 'Most Important Product for You'
+              });
+};

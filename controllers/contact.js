@@ -31,6 +31,7 @@ exports.postContact = function(req, res) {
 
   if (errors) {
     req.flash('errors', errors);
+    console.log(errors);
     return res.redirect('/contact');
   }
 
